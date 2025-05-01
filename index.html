@@ -2,34 +2,197 @@
 <html lang = "en">
     <head>
         <title>Africa and NeoColonialism</title>
-        <link rel="stylesheet" type="text/css" href="style.css"
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src = "responsive_styling.js"></script>
     </head>
 
-    <body>
-        <section>
-            <h1>Africa and NeoColonialism</h1>
-            <h3>Maps/Regions</h3>
-            <h3>Legacy/Infamy</h3>
-            <h3>Personal Opinion</h3>
-            <h3>References</h3>
-        </section>
+    <body onload="showSlides()">
+        <nav>
+            <ul class = "navigation">
+                <li class = "homepage">Africa and NeoColonialism</li>
+                <li><a href = "map.html">Maps/Regions</a></li>
+                <li><a href = "example.html">Legacy/Infamy</a></li>
+                <li><a href = "personal_rant.html">Personal Opinion</a></li>
+                <li><a href = "sources.html">References</a></li>
+            </ul>
+        </nav>
 
         <h1>How, What, and Why?</h1>
-        <img src = "scramble_for_africa.jpg" class = "africa_colonization">
-        
+
         <section>
-            <h3>History</h3>
-            <p></p>
+            <h2>Description</h2>
+            <div class="slideshow-container">
+                <div class="mySlides">
+                    <p class = "definition">
+                        <h3 class = "term">Colonial: </h3>
+                        “Ideological, sociological, and political, and entails an 
+                        external or internal powerful actor’s belief that they have a right to 
+                        dominate, oppress, and violate the rights of other groups.”
+                    </p>
+                </div>
+    
+                <div class="mySlides">
+                    <p class = "definition">
+                        <h3 class = "term">Colonialism: </h3>
+                        “Practice of controlling another country or area and 
+                        exploiting its people and resources.”
+                    </p>
+                </div>
+    
+                <div class="mySlides">
+                    <p class = "definition">
+                        <h3 class = "term">Imperialism: </h3>
+                        “State policy, practice, or advocacy of extending power and dominion, 
+                        especially by direct territorial acquisition or by gaining political and 
+                        economic control of other areas.”
+                    </p>
+                </div>
+    
+                <div class="mySlides">
+                    <p class = "definition">
+                        <h3 class = "term">NeoColonialism: </h3>
+                        “The control of less-developed countries by developed countries through 
+                        indirect means.” 
+                        This is also a type of global power in which transnational businesses 
+                        and global and multilateral organizations collaborate to maintain 
+                        colonial systems of exploitation in "developing” nations
+                    </p>
+                </div>
+    
+                <div class="mySlides">
+                    <p class = "definition">
+                        <h3 class = "term">Soft Power: </h3>
+                        Soft Power in the aspect of foreign politics is the ability to 
+                        influence a country’s actions or the people globally or locally 
+                        without coercion or force.
+                    </p>
+                </div>
+    
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+            </div>
         </section>
 
         <section>
-            <h3>Description</h3>
+            <h3>History</h3>
+            <p>
+                Africa, the ‘Mother Continent of Humanity’, the ‘Cradle of Civilization’, 
+                these are monikers given to describe Africa for different reasons. But 
+                there is one moniker that was used during the colonial era – 
+                the ‘Dark Continent.’ This name was coined by the Europeans because of 
+                two main reasons: the continent’s vast landscapes, diverse cultures, and 
+                complex societies were largely unexplored and misunderstood; and Africa 
+                was primitive and uncivilized ignoring the rich histories and advanced 
+                civilizations existing prior. This second reason was part of the 
+                mentality that Europeans were the superior humans/race which can be 
+                linked to the Slave Trade.
+            </p>
+
+            <br>
+            <img src ="African_civilizations_map_precolonial.jpg" alt = "The Map of Africa before Colonolization" class = "images">
+            <imagecaption>Map of Africa before colonialism</imagecaption>
+            <br>
+
+            <p>
+                How did colonialism start in Africa? Colonialism began on the onset of 
+                the Scramble of Africa. This started in the early 1800s. After 
+                realizing the wealth from the resources in the Africa continent, the 
+                race for Africa colonies began. European countries who were at butt 
+                with each other aimed not to bring the dispute over the colonies they 
+                had in Africa. And to further prevent any future conflict, the Berlin 
+                Conference of 1884 - 1885 was initiated by German Chancellor, 
+                Otto von Bismarck, to discuss and set the rules and regulations 
+                concerning the conquest of Africa. The countries in participation 
+                included Germany, Austria Hungary, 
+                Belgium (International Congo Society), Spain, Denmark, U.S.A, France, 
+                U.K, Italy, Netherlands, Portugal, Russia, Sweden-Norway, and 
+                the Ottoman Empire. The issues discussed included the end of slave 
+                trade, the expansion of missionary activities, imperial powers 
+                acknowledgment of Leopold II of Belgium’s administration of the 
+                Congo Free State 
+                (modernly known as the Democratic Republic of Congo – DRC), 
+                agreement to remain in constant communication with each other, and 
+                the creation of a region along the Congo River to be a neutral area 
+                and free of all trade and naval restrictions 
+                (World History Edu, 2023). This event formalized the Scramble of Africa 
+                to which Europe Control of Africa grew over the years from about 
+                10% to 90%. This happened through violence and subjugation, and 
+                manipulation and trickery.
+            </p>
+
+            <br>
+            <img src = "scramble_for_africa.jpg" alt = "Map of Africa after the Scramble for Africa" class = "images">
+            <imagecaption>Map of Africa after the Scramble for Africa</imagecaption>
+            <br>
+
+            <p>
+                This enforced colonialism in Africa, but after World War I & II, 
+                the Great Depression, etc., the period of decolonization began in 
+                Africa. This period of decolonialization lasted from the 
+                mid-1950s to 1975. New Africa political movements began to rise led 
+                by nationalists who were educated under the European education. 
+                Also, European belief on the superior mindset began to change, which 
+                made it easier for the progress of liberation movements.  The 
+                liberation movements struggled with their literal sweat and blood 
+                regardless of the culture change toward Africa in Europe.
+            </p>
+            
+            <p>
+                But most European powers were not enthusiastic about losing control over 
+                their “colonies.” Some nations like the United Kingdom, were willing to 
+                give the independent nations to develop. Other nations like France, and 
+                Belgium compromised to have puppet states. In all, the emergence of 
+                neocolonialism began in Africa.
+            </p>
+
+            <p>
+                During the Cold War, Africa among other continents or regions became an 
+                unspoken battlefield between the U.S and the Soviet Union. Independent 
+                nations were scrutinized or their government overthrown by the U.S if 
+                there was evidence or suspicion of aligning with the Soviet Union. 
+                This formalized neocolonialism in Africa. The U.S claims that their 
+                influence in Africa was to contain the spread of Communism. But 
+                their influence grew into soft power/control over nations in Africa. 
+                Atrocities committed by U.S. allies were swept under the carpet under 
+                the cover of War on Communism. 
+            </p>
         </section>
 
         <section>
             <h3>Reason</h3>
+            <p>
+                This is an outlet to bring awareness of the complexities of the issues 
+                plaguing African countries. The aim is not to be a political weapon 
+                against any part and to be as neutral as possible. No victim mindset 
+                is highlighted; the goal is to talk about how history and the influence 
+                of global powers on African countries complicates the issues of African 
+                countries.
+            </p>
+
+            <p>
+                After the fall of the Soviet Union the hold over the countries in Africa 
+                never diminished but was disguised even further. And now, there is a 
+                revamp of the Scramble for Africa between the West and the East. Africa 
+                is the battlefield between the Scylla and Charybdis. African countries 
+                are still being affected being used as chess pieces in the game between 
+                global powers. Conflict in Africa is not as simple as it seems but is 
+                the cause effect of the global powers' imperialistic desires. 
+                For example, the DRC conflict, the South Sudan and Sudan conflict.
+            </p>
         </section>
 
+        <footer>
+            <em>The author is a Nigerian bred history enthusiastic. Nigeria being one of the 
+                popular African countries located in the Western Region.</em> 
+        </footer>
         <footnote>@2025 Copyright Reserved. I.A.</footnote>
     </body>
 </html>
