@@ -145,3 +145,8 @@ h1, h2, h3{
 .assassinated-leaders, .conflict-zones{
     background-color: #a0a0a0;
 }
+
+.video{
+    width: 560px;
+    height: 315px;
+}
